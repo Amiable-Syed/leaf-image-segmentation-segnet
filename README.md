@@ -1,24 +1,4 @@
-# Image Segmentation Keras : Implementation of Segnet, FCN, UNet and other models in Keras.
-
-Implememnation of various Deep Image Segmentation models in keras. 
-
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sunshineatnoon/Paper-Collection/master/images/FCN1.png" width="50%" >
-</p>
-
-## Our Other Repositories 
-- [Attention based Language Translation in Keras](https://github.com/divamgupta/attention-translation-keras)
-
-
-## Models 
-
-* FCN8
-* FCN32
-* Simple Segnet
-* VGG Segnet 
-* U-Net
-* VGG U-Net
+# SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation
 
 ## Getting Started
 
