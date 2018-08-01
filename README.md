@@ -5,7 +5,7 @@
 
 * Keras 2.0
 * opencv for python
-* Tensrflow 
+* Tensorflow
 
 
 ### Preparing the data for training
