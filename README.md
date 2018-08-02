@@ -1,4 +1,4 @@
-              # SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation
+# SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation
 
 
 ### Prerequisites
