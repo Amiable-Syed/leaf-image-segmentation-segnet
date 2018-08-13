@@ -29,8 +29,6 @@ python  train.py \
  --save_weights_path=weights/ex1 \
  --train_images="data/dataset1/images_prepped_train/" \
  --train_annotations="data/dataset1/annotations_prepped_train/" \
- --val_images="data/dataset1/" \
- --val_annotations="data/dataset1/annotations_prepped_test/" \
  --n_classes=2
 ```
 
@@ -44,8 +42,6 @@ To get the predictions of a trained model
  python predict.py \
  --save_weights_path=weights/ex1 \
  --epoch_number=0 \
- --test_images="data/dataset1/images_prepped_test/" \
- --output_path="data/predictions/" \
  --n_classes=2
 ```
 
