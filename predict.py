@@ -1,5 +1,5 @@
 import argparse
-import Models , LoadBatches
+import VGGSegnet LoadBatches
 from keras.models import load_model
 import glob
 import cv2
@@ -13,7 +13,7 @@ parser.add_argument("--test_images", type = str , default = "")
 parser.add_argument("--output_path", type = str , default = "")
 parser.add_argument("--input_height", type=int , default = 224  )
 parser.add_argument("--input_width", type=int , default = 224 )
-parser.add_argument("--model_name", type = str , default = "")
+parser.add_argument("--model_name", type = str , default = "vgg_segnet")
 parser.add_argument("--n_classes", type=int )
 
 args = parser.parse_args()
@@ -25,7 +25,7 @@ input_width =  args.input_width
 input_height = args.input_height
 epoch_number = args.epoch_number
 
-modelFns = { 'vgg_segnet':Models.VGGSegnet.VGGSegnet , 'vgg_unet':Models.VGGUnet.VGGUnet , 'vgg_unet2':Models.VGGUnet.VGGUnet2 , 'fcn8':Models.FCN8.FCN8 , 'fcn32':Models.FCN32.FCN32   }
+modelFns = { 'vgg_segnet':Models.VGGSegnet.VGGSegnet }
 modelFN = modelFns[ model_name ]
 
 m = modelFN( n_classes , input_height=input_height, input_width=input_width   )
