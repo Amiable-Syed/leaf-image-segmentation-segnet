@@ -42,6 +42,8 @@ To get the predictions of a trained model
  python predict.py \
  --save_weights_path=weights/ex1 \
  --epoch_number=0 \
+ --test_images="data/dataset1/images_prepped_test/" \
+ --output_path="data/predictions/" \
  --n_classes=2
 ```
 
