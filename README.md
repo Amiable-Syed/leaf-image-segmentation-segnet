@@ -34,6 +34,15 @@ python  train.py \
 
 Choose model_name from vgg_segnet  vgg_unet, vgg_unet2, fcn8, fcn32
 
+
+## Getting the pretrained weights 
+
+```shell
+# Download pretrained weights from https://drive.google.com/file/d/1AaczFcoXwvSBMNhn9dyR7kB5Iyen-Ut5/view?usp=sharing
+unzip weights.zip
+```
+
+
 ## Getting the predictions
 
 To get the predictions of a trained model
